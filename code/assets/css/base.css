@@ -1,0 +1,30 @@
+/* Base Styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Additional base styles */
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Focus visible for accessibility */
+*:focus-visible {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+/* Image handling */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Link styles */
+a {
+    text-decoration: none;
+    transition: color 0.2s ease;
+}

@@ -1,0 +1,24 @@
+/* Footer Styles */
+/* Custom footer styling */
+
+.footer-link {
+    transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+    color: var(--primary-color);
+}
+
+/* Social media icons */
+.social-icon {
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+/* Footer bottom */
+.footer-bottom {
+    border-top: 1px solid #e5e7eb;
+}

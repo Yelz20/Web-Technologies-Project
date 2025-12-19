@@ -1,0 +1,101 @@
+/* Form Styles */
+
+/* Input focus states */
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+/* Custom file upload */
+.file-upload {
+    cursor: pointer;
+}
+
+.file-upload input[type="file"] {
+    display: none;
+}
+
+/* Radio and checkbox custom styles */
+input[type="radio"],
+input[type="checkbox"] {
+    cursor: pointer;
+}
+
+/* Form validation states */
+.form-error {
+    border-color: var(--danger-color) !important;
+}
+
+.form-success {
+    border-color: var(--success-color) !important;
+}
+
+/* Star rating */
+.star-rating {
+    display: inline-flex;
+    gap: 0.25rem;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #d1d5db;
+    transition: color 0.2s ease;
+}
+
+.star-rating label:hover,
+.star-rating label:hover~label,
+.star-rating input:checked~label {
+    color: #fbbf24;
+}
+
+/* Toggle switch */
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 48px;
+    height: 24px;
+}
+
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #cbd5e1;
+    transition: 0.3s;
+    border-radius: 24px;
+}
+
+.toggle-slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: 0.3s;
+    border-radius: 50%;
+}
+
+input:checked+.toggle-slider {
+    background-color: var(--primary-color);
+}
+
+input:checked+.toggle-slider:before {
+    transform: translateX(24px);
+}
