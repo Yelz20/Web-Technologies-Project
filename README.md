@@ -1,5 +1,6 @@
-# Web-Technologies-Project
 # Football Review Platform ⚽
+
+**Live Application:** [http://169.239.251.102:341/~yelsom.sanid/FootballReview/register.php](http://169.239.251.102:341/~yelsom.sanid/FootballReview/register.php)
 
 A comprehensive web application for football enthusiasts to track matches, leagues, and teams while engaging with other fans through reviews and reactions.
 
@@ -57,4 +58,4 @@ A comprehensive web application for football enthusiasts to track matches, leagu
 The project uses a robust absolute path resolution system. The `BASE_URL` is automatically calculated in `config.php`, ensuring that all assets and links work perfectly even when the project is deployed in subdirectories or `~user` environments.
 
 ## 📄 License
-This project is part of a Web Technology course for 2025/2025 fall semester.
+This project is part of a Web Technology course for 2024/2025.
